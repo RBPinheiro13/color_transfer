@@ -25,27 +25,27 @@ static void desc_Q_once(void)
 
   /* Initialize Coverage Information */
   covrtScriptInit(&emlrtCoverageInstance,
-                  "C:\\\\Users\\\\rodri\\\\Documents\\\\ENSEIRB\\\\S8\\\\Projet_Th\xe9matique\\\\SLIC_mex\\\\SLIC_mex\\\\18_03_Validate_Fusion_Radius\\\\TO_MEX\\\\desc_Q.m",
+                  "C:\\Users\\rodri\\Documents\\ENSEIRB\\S8\\Projet_Thematique\\18_03_Validate_Fusion_Radius\\TO_MEX\\desc_Q.m",
                   0, 1, 5, 1, 0, 0, 0, 3, 0, 0, 0);
 
   /* Initialize Function Information */
-  covrtFcnInit(&emlrtCoverageInstance, 0, 0, "desc_Q", 0, -1, 770);
+  covrtFcnInit(&emlrtCoverageInstance, 0, 0, "desc_Q", 0, -1, 776);
 
   /* Initialize Basic Block Information */
-  covrtBasicBlockInit(&emlrtCoverageInstance, 0, 4, 607, -1, 753);
-  covrtBasicBlockInit(&emlrtCoverageInstance, 0, 3, 405, -1, 534);
-  covrtBasicBlockInit(&emlrtCoverageInstance, 0, 2, 313, -1, 333);
-  covrtBasicBlockInit(&emlrtCoverageInstance, 0, 1, 217, -1, 240);
-  covrtBasicBlockInit(&emlrtCoverageInstance, 0, 0, 84, -1, 186);
+  covrtBasicBlockInit(&emlrtCoverageInstance, 0, 4, 613, -1, 759);
+  covrtBasicBlockInit(&emlrtCoverageInstance, 0, 3, 411, -1, 540);
+  covrtBasicBlockInit(&emlrtCoverageInstance, 0, 2, 319, -1, 339);
+  covrtBasicBlockInit(&emlrtCoverageInstance, 0, 1, 223, -1, 246);
+  covrtBasicBlockInit(&emlrtCoverageInstance, 0, 0, 84, -1, 192);
 
   /* Initialize If Information */
-  covrtIfInit(&emlrtCoverageInstance, 0, 0, 360, 371, -1, 568);
+  covrtIfInit(&emlrtCoverageInstance, 0, 0, 366, 377, -1, 574);
 
   /* Initialize MCDC Information */
   /* Initialize For Information */
-  covrtForInit(&emlrtCoverageInstance, 0, 0, 188, 208, 763);
-  covrtForInit(&emlrtCoverageInstance, 0, 1, 251, 265, 597);
-  covrtForInit(&emlrtCoverageInstance, 0, 2, 273, 288, 580);
+  covrtForInit(&emlrtCoverageInstance, 0, 0, 194, 214, 769);
+  covrtForInit(&emlrtCoverageInstance, 0, 1, 257, 271, 603);
+  covrtForInit(&emlrtCoverageInstance, 0, 2, 279, 294, 586);
 
   /* Initialize While Information */
   /* Initialize Switch Information */

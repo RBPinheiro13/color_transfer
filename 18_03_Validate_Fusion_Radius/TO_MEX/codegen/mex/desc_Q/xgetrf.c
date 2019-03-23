@@ -74,7 +74,7 @@ void xgetrf(const emlrtStack *sp, int32_T m, int32_T n, real_T A_data[], int32_T
 
   ptrdiff_t ipiv_t_data[5];
   const mxArray *m8;
-  static const int32_T iv15[2] = { 1, 15 };
+  static const int32_T iv14[2] = { 1, 15 };
 
   ptrdiff_t info_t;
   emlrtStack st;
@@ -97,7 +97,7 @@ void xgetrf(const emlrtStack *sp, int32_T m, int32_T n, real_T A_data[], int32_T
     }
 
     y = NULL;
-    m8 = emlrtCreateCharArray(2, iv15);
+    m8 = emlrtCreateCharArray(2, iv14);
     emlrtInitCharArrayR2013a(&b_st, 15, m8, &u[0]);
     emlrtAssign(&y, m8);
     c_st.site = &ob_emlrtRSI;

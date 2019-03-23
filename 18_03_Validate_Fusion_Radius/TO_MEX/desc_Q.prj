@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.coder" plugin-version="R2016a">
-  <configuration build-checksum="996144285" file="C:\Users\rodri\Documents\ENSEIRB\S8\Projet_Thématique\SLIC_mex\SLIC_mex\18_03_Validate_Fusion_Radius\TO_MEX\desc_Q.prj" location="C:\Users\rodri\Documents\ENSEIRB\S8\Projet_Thématique\SLIC_mex\SLIC_mex\18_03_Validate_Fusion_Radius\TO_MEX" name="desc_Q" target="target.unifiedcoder" target-name="MATLAB Coder">
+  <configuration build-checksum="433008340" file="C:\Users\rodri\Documents\ENSEIRB\S8\Projet_Thematique\18_03_Validate_Fusion_Radius\TO_MEX\desc_Q.prj" location="C:\Users\rodri\Documents\ENSEIRB\S8\Projet_Thematique\18_03_Validate_Fusion_Radius\TO_MEX" name="desc_Q" target="target.unifiedcoder" target-name="MATLAB Coder">
     <profile key="profile.mex">
       <param.BuiltInstrumentedMex>false</param.BuiltInstrumentedMex>
       <param.RanInstrumentedMex>false</param.RanInstrumentedMex>
@@ -149,7 +149,7 @@
       <param.DefaultTestFile />
       <param.MergeInstrumentationResults>false</param.MergeInstrumentationResults>
       <param.RanPilSilVerification>false</param.RanPilSilVerification>
-      <param.VerificationMode>option.VerificationMode.None</param.VerificationMode>
+      <param.VerificationMode />
       <param.VerificationStatus>option.VerificationStatus.Inactive</param.VerificationStatus>
       <param.CustomSourceCode />
       <param.CustomHeaderCode />
@@ -204,7 +204,7 @@
       <param.HardwareSizePointer.Target>64</param.HardwareSizePointer.Target>
       <param.HardwareEndianness.Target>option.HardwareEndianness.Little</param.HardwareEndianness.Target>
       <param.HardwareArithmeticRightShift.Target>true</param.HardwareArithmeticRightShift.Target>
-      <param.HardwareLongLongMode.Target>false</param.HardwareLongLongMode.Target>
+      <param.HardwareLongLongMode.Target>true</param.HardwareLongLongMode.Target>
       <param.HardwareAtomicIntegerSize.Target>option.HardwareAtomicIntegerSize.Char</param.HardwareAtomicIntegerSize.Target>
       <param.HardwareAtomicFloatSize.Target>option.HardwareAtomicFloatSize.None</param.HardwareAtomicFloatSize.Target>
       <param.HardwareDivisionRounding.Target>option.HardwareDivisionRounding.Zero</param.HardwareDivisionRounding.Target>
@@ -688,7 +688,7 @@
     </param.TestSnippets>
     <param.DefaultImportExportVariable>config</param.DefaultImportExportVariable>
     <param.UseGlobals>option.UseGlobals.No</param.UseGlobals>
-    <param.outputfile>${PROJECT_ROOT}\codegen\lib\calcul_final\calcul_final.lib</param.outputfile>
+    <param.outputfile>${PROJECT_ROOT}\codegen\lib\desc_Q\desc_Q.lib</param.outputfile>
     <param.version>R2012a</param.version>
     <param.HasECoderFeatures>true</param.HasECoderFeatures>
     <param.mex.mainhtml />
@@ -701,7 +701,7 @@
     <param.AutoInferUnboundedSizeThreshold>2048</param.AutoInferUnboundedSizeThreshold>
     <param.EnableFixedPointStep>false</param.EnableFixedPointStep>
     <param.EnableScreener>true</param.EnableScreener>
-    <param.AnnotationChecksum>4043819292</param.AnnotationChecksum>
+    <param.AnnotationChecksum>4210963736</param.AnnotationChecksum>
     <var.LegacyTarget />
     <var.MirrorOnOpen>false</var.MirrorOnOpen>
     <param.FixedPointEnabled>false</param.FixedPointEnabled>
@@ -710,19 +710,19 @@
     <param.unifiedParamStorage />
     <var.gc.lastOutputRoot />
     <var.gc.preBuildChecksum />
-    <var.cfi.lastOutputRoot>codegen\mex\calcul_final</var.cfi.lastOutputRoot>
-    <var.cfi.preBuildChecksum>996144285</var.cfi.preBuildChecksum>
+    <var.cfi.lastOutputRoot>codegen\mex\desc_Q</var.cfi.lastOutputRoot>
+    <var.cfi.preBuildChecksum>3957969457</var.cfi.preBuildChecksum>
     <var.lastCfiTestSnippet>calcul_final</var.lastCfiTestSnippet>
     <var.outdatedOnRestore>false</var.outdatedOnRestore>
     <var.lastUserSourceChecksum />
-    <var.sourceSetState>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;&lt;sourceModel&gt;&lt;primarySourceFiles&gt;&lt;file&gt;C:\Users\rodri\Documents\ENSEIRB\S8\Projet_Thématique\SLIC_mex\SLIC_mex\18_03_Validate_Fusion_Radius\TO_MEX\calcul_final.m&lt;/file&gt;&lt;/primarySourceFiles&gt;&lt;fixedPointSourceFiles/&gt;&lt;fixedPointSourceRegistered&gt;false&lt;/fixedPointSourceRegistered&gt;&lt;fixedPointSourceSelected&gt;false&lt;/fixedPointSourceSelected&gt;&lt;/sourceModel&gt;</var.sourceSetState>
+    <var.sourceSetState>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;&lt;sourceModel&gt;&lt;primarySourceFiles&gt;&lt;file&gt;C:\Users\rodri\Documents\ENSEIRB\S8\Projet_Thematique\18_03_Validate_Fusion_Radius\TO_MEX\desc_Q.m&lt;/file&gt;&lt;/primarySourceFiles&gt;&lt;fixedPointSourceFiles/&gt;&lt;fixedPointSourceRegistered&gt;false&lt;/fixedPointSourceRegistered&gt;&lt;fixedPointSourceSelected&gt;false&lt;/fixedPointSourceSelected&gt;&lt;/sourceModel&gt;</var.sourceSetState>
     <param.forceMexBuild>false</param.forceMexBuild>
     <param.configImportActive>false</param.configImportActive>
     <var.boundToGui>true</var.boundToGui>
-    <param.mex.outputfile>calcul_final_mex</param.mex.outputfile>
-    <param.grt.outputfile>calcul_final</param.grt.outputfile>
+    <param.mex.outputfile>desc_Q_mex</param.mex.outputfile>
+    <param.grt.outputfile>desc_Q</param.grt.outputfile>
     <param.artifact>option.target.artifact.lib</param.artifact>
-    <param.outputfile>${PROJECT_ROOT}\codegen\lib\calcul_final\calcul_final.lib</param.outputfile>
+    <param.outputfile>${PROJECT_ROOT}\codegen\lib\desc_Q\desc_Q.lib</param.outputfile>
     <param.EnableAutoExtrinsicCalls>true</param.EnableAutoExtrinsicCalls>
     <param.UsePreconditions>false</param.UsePreconditions>
     <param.FeatureFlags />
@@ -837,21 +837,22 @@
       <param.fptSignedness />
     </unset>
     <fileset.entrypoints>
-      <file custom-data-expanded="false" value="${PROJECT_ROOT}\calcul_final.m">
-        <Marker>1552998574623</Marker>
+      <file custom-data-expanded="false" value="${PROJECT_ROOT}\desc_Q.m">
+        <Marker>1553376245382</Marker>
       </file>
     </fileset.entrypoints>
     <fileset.testbench>
       <file>C:\Users\rodri\Documents\ENSEIRB\S8\Projet_Thématique\SLIC_mex\SLIC_mex\18_03_Validate_Fusion_Radius\calcul_final.m</file>
     </fileset.testbench>
     <fileset.inputtypes>
-      <file custom-data-expanded="false" value="${PROJECT_ROOT}\calcul_final.m">
-        <Inputs fileName="calcul_final.m" functionName="calcul_final">
+      <file custom-data-expanded="false" value="${PROJECT_ROOT}\desc_Q.m">
+        <Inputs fileName="desc_Q.m" functionName="desc_Q">
           <Input Name="img_target" typeId="0" />
-          <Input Name="w" typeId="1" />
-          <Input Name="C_Br" typeId="2" />
-          <Input Name="C_Bg" typeId="2" />
-          <Input Name="C_Bb" typeId="2" />
+          <Input Name="labels" typeId="1" />
+          <Input Name="numlabels" typeId="2" />
+          <Input Name="count" typeId="3" />
+          <Input Name="par_s" typeId="4" />
+          <Input Name="par_c" typeId="4" />
           <idpTable>
             <type typeId="0">
               <Class>double</Class>
@@ -862,16 +863,32 @@
               <Complex>false</Complex>
             </type>
             <type typeId="1">
-              <Class>double</Class>
-              <Size>:inf x :inf x :inf</Size>
+              <Class>int32</Class>
+              <Size>:inf x :inf</Size>
               <Value />
               <InitialValue />
               <UserDefined>true</UserDefined>
               <Complex>false</Complex>
             </type>
             <type typeId="2">
+              <Class>int32</Class>
+              <Size>1 x 1</Size>
+              <Value />
+              <InitialValue />
+              <UserDefined>true</UserDefined>
+              <Complex>false</Complex>
+            </type>
+            <type typeId="3">
               <Class>double</Class>
               <Size>:inf x 1</Size>
+              <Value />
+              <InitialValue />
+              <UserDefined>true</UserDefined>
+              <Complex>false</Complex>
+            </type>
+            <type typeId="4">
+              <Class>double</Class>
+              <Size>1 x 1</Size>
               <Value />
               <InitialValue />
               <UserDefined>true</UserDefined>
@@ -882,7 +899,7 @@
       </file>
     </fileset.inputtypes>
     <build-deliverables>
-      <file location="${PROJECT_ROOT}\codegen\lib\calcul_final" name="calcul_final.lib" optional="false">C:\Users\rodri\Documents\ENSEIRB\S8\Projet_Thématique\SLIC_mex\SLIC_mex\18_03_Validate_Fusion_Radius\TO_MEX\codegen\lib\calcul_final\calcul_final.lib</file>
+      <file location="${PROJECT_ROOT}\codegen\lib\desc_Q" name="desc_Q.lib" optional="false">C:\Users\rodri\Documents\ENSEIRB\S8\Projet_Thematique\18_03_Validate_Fusion_Radius\TO_MEX\codegen\lib\desc_Q\desc_Q.lib</file>
     </build-deliverables>
     <workflow />
     <matlab>

@@ -22,23 +22,23 @@
 
 /* Variable Definitions */
 static emlrtRSInfo emlrtRSI = { 7, "desc_Q",
-  "C:\\\\Users\\\\rodri\\\\Documents\\\\ENSEIRB\\\\S8\\\\Projet_Th\xc3\xa9matique\\\\SLIC_mex\\\\SLIC_mex\\\\18_03_Validate_Fusion_Radius\\\\TO_MEX\\\\desc_Q.m"
+  "C:\\Users\\rodri\\Documents\\ENSEIRB\\S8\\Projet_Thematique\\18_03_Validate_Fusion_Radius\\TO_MEX\\desc_Q.m"
 };
 
 static emlrtRSInfo b_emlrtRSI = { 27, "desc_Q",
-  "C:\\\\Users\\\\rodri\\\\Documents\\\\ENSEIRB\\\\S8\\\\Projet_Th\xc3\xa9matique\\\\SLIC_mex\\\\SLIC_mex\\\\18_03_Validate_Fusion_Radius\\\\TO_MEX\\\\desc_Q.m"
+  "C:\\Users\\rodri\\Documents\\ENSEIRB\\S8\\Projet_Thematique\\18_03_Validate_Fusion_Radius\\TO_MEX\\desc_Q.m"
 };
 
 static emlrtRSInfo c_emlrtRSI = { 28, "desc_Q",
-  "C:\\\\Users\\\\rodri\\\\Documents\\\\ENSEIRB\\\\S8\\\\Projet_Th\xc3\xa9matique\\\\SLIC_mex\\\\SLIC_mex\\\\18_03_Validate_Fusion_Radius\\\\TO_MEX\\\\desc_Q.m"
+  "C:\\Users\\rodri\\Documents\\ENSEIRB\\S8\\Projet_Thematique\\18_03_Validate_Fusion_Radius\\TO_MEX\\desc_Q.m"
 };
 
 static emlrtRSInfo d_emlrtRSI = { 30, "desc_Q",
-  "C:\\\\Users\\\\rodri\\\\Documents\\\\ENSEIRB\\\\S8\\\\Projet_Th\xc3\xa9matique\\\\SLIC_mex\\\\SLIC_mex\\\\18_03_Validate_Fusion_Radius\\\\TO_MEX\\\\desc_Q.m"
+  "C:\\Users\\rodri\\Documents\\ENSEIRB\\S8\\Projet_Thematique\\18_03_Validate_Fusion_Radius\\TO_MEX\\desc_Q.m"
 };
 
 static emlrtRSInfo e_emlrtRSI = { 31, "desc_Q",
-  "C:\\\\Users\\\\rodri\\\\Documents\\\\ENSEIRB\\\\S8\\\\Projet_Th\xc3\xa9matique\\\\SLIC_mex\\\\SLIC_mex\\\\18_03_Validate_Fusion_Radius\\\\TO_MEX\\\\desc_Q.m"
+  "C:\\Users\\rodri\\Documents\\ENSEIRB\\S8\\Projet_Thematique\\18_03_Validate_Fusion_Radius\\TO_MEX\\desc_Q.m"
 };
 
 static emlrtRSInfo n_emlrtRSI = { 22, "inv",
@@ -70,51 +70,51 @@ static emlrtMCInfo d_emlrtMCI = { 52, 19, "flt2str",
 };
 
 static emlrtRTEInfo emlrtRTEI = { 1, 29, "desc_Q",
-  "C:\\\\Users\\\\rodri\\\\Documents\\\\ENSEIRB\\\\S8\\\\Projet_Th\xc3\xa9matique\\\\SLIC_mex\\\\SLIC_mex\\\\18_03_Validate_Fusion_Radius\\\\TO_MEX\\\\desc_Q.m"
+  "C:\\Users\\rodri\\Documents\\ENSEIRB\\S8\\Projet_Thematique\\18_03_Validate_Fusion_Radius\\TO_MEX\\desc_Q.m"
 };
 
 static emlrtRTEInfo b_emlrtRTEI = { 5, 1, "desc_Q",
-  "C:\\\\Users\\\\rodri\\\\Documents\\\\ENSEIRB\\\\S8\\\\Projet_Th\xc3\xa9matique\\\\SLIC_mex\\\\SLIC_mex\\\\18_03_Validate_Fusion_Radius\\\\TO_MEX\\\\desc_Q.m"
+  "C:\\Users\\rodri\\Documents\\ENSEIRB\\S8\\Projet_Thematique\\18_03_Validate_Fusion_Radius\\TO_MEX\\desc_Q.m"
 };
 
 static emlrtRTEInfo c_emlrtRTEI = { 9, 5, "desc_Q",
-  "C:\\\\Users\\\\rodri\\\\Documents\\\\ENSEIRB\\\\S8\\\\Projet_Th\xc3\xa9matique\\\\SLIC_mex\\\\SLIC_mex\\\\18_03_Validate_Fusion_Radius\\\\TO_MEX\\\\desc_Q.m"
+  "C:\\Users\\rodri\\Documents\\ENSEIRB\\S8\\Projet_Thematique\\18_03_Validate_Fusion_Radius\\TO_MEX\\desc_Q.m"
 };
 
 static emlrtBCInfo emlrtBCI = { -1, -1, 14, 24, "labels", "desc_Q",
-  "C:\\\\Users\\\\rodri\\\\Documents\\\\ENSEIRB\\\\S8\\\\Projet_Th\xc3\xa9matique\\\\SLIC_mex\\\\SLIC_mex\\\\18_03_Validate_Fusion_Radius\\\\TO_MEX\\\\desc_Q.m",
+  "C:\\Users\\rodri\\Documents\\ENSEIRB\\S8\\Projet_Thematique\\18_03_Validate_Fusion_Radius\\TO_MEX\\desc_Q.m",
   0 };
 
 static emlrtBCInfo b_emlrtBCI = { -1, -1, 14, 28, "labels", "desc_Q",
-  "C:\\\\Users\\\\rodri\\\\Documents\\\\ENSEIRB\\\\S8\\\\Projet_Th\xc3\xa9matique\\\\SLIC_mex\\\\SLIC_mex\\\\18_03_Validate_Fusion_Radius\\\\TO_MEX\\\\desc_Q.m",
+  "C:\\Users\\rodri\\Documents\\ENSEIRB\\S8\\Projet_Thematique\\18_03_Validate_Fusion_Radius\\TO_MEX\\desc_Q.m",
   0 };
 
 static emlrtBCInfo c_emlrtBCI = { -1, -1, 19, 46, "img_target", "desc_Q",
-  "C:\\\\Users\\\\rodri\\\\Documents\\\\ENSEIRB\\\\S8\\\\Projet_Th\xc3\xa9matique\\\\SLIC_mex\\\\SLIC_mex\\\\18_03_Validate_Fusion_Radius\\\\TO_MEX\\\\desc_Q.m",
+  "C:\\Users\\rodri\\Documents\\ENSEIRB\\S8\\Projet_Thematique\\18_03_Validate_Fusion_Radius\\TO_MEX\\desc_Q.m",
   0 };
 
 static emlrtBCInfo d_emlrtBCI = { -1, -1, 19, 50, "img_target", "desc_Q",
-  "C:\\\\Users\\\\rodri\\\\Documents\\\\ENSEIRB\\\\S8\\\\Projet_Th\xc3\xa9matique\\\\SLIC_mex\\\\SLIC_mex\\\\18_03_Validate_Fusion_Radius\\\\TO_MEX\\\\desc_Q.m",
+  "C:\\Users\\rodri\\Documents\\ENSEIRB\\S8\\Projet_Thematique\\18_03_Validate_Fusion_Radius\\TO_MEX\\desc_Q.m",
   0 };
 
 static emlrtBCInfo e_emlrtBCI = { -1, -1, 18, 21, "A_i", "desc_Q",
-  "C:\\\\Users\\\\rodri\\\\Documents\\\\ENSEIRB\\\\S8\\\\Projet_Th\xc3\xa9matique\\\\SLIC_mex\\\\SLIC_mex\\\\18_03_Validate_Fusion_Radius\\\\TO_MEX\\\\desc_Q.m",
+  "C:\\Users\\rodri\\Documents\\ENSEIRB\\S8\\Projet_Thematique\\18_03_Validate_Fusion_Radius\\TO_MEX\\desc_Q.m",
   0 };
 
 static emlrtBCInfo f_emlrtBCI = { -1, -1, 19, 21, "A_i", "desc_Q",
-  "C:\\\\Users\\\\rodri\\\\Documents\\\\ENSEIRB\\\\S8\\\\Projet_Th\xc3\xa9matique\\\\SLIC_mex\\\\SLIC_mex\\\\18_03_Validate_Fusion_Radius\\\\TO_MEX\\\\desc_Q.m",
+  "C:\\Users\\rodri\\Documents\\ENSEIRB\\S8\\Projet_Thematique\\18_03_Validate_Fusion_Radius\\TO_MEX\\desc_Q.m",
   0 };
 
 static emlrtBCInfo g_emlrtBCI = { -1, -1, 31, 14, "A_mean", "desc_Q",
-  "C:\\\\Users\\\\rodri\\\\Documents\\\\ENSEIRB\\\\S8\\\\Projet_Th\xc3\xa9matique\\\\SLIC_mex\\\\SLIC_mex\\\\18_03_Validate_Fusion_Radius\\\\TO_MEX\\\\desc_Q.m",
+  "C:\\Users\\rodri\\Documents\\ENSEIRB\\S8\\Projet_Thematique\\18_03_Validate_Fusion_Radius\\TO_MEX\\desc_Q.m",
   0 };
 
-static emlrtBCInfo h_emlrtBCI = { 1, 339, 30, 15, "Q_inv", "desc_Q",
-  "C:\\\\Users\\\\rodri\\\\Documents\\\\ENSEIRB\\\\S8\\\\Projet_Th\xc3\xa9matique\\\\SLIC_mex\\\\SLIC_mex\\\\18_03_Validate_Fusion_Radius\\\\TO_MEX\\\\desc_Q.m",
+static emlrtBCInfo h_emlrtBCI = { -1, -1, 30, 15, "Q_inv", "desc_Q",
+  "C:\\Users\\rodri\\Documents\\ENSEIRB\\S8\\Projet_Thematique\\18_03_Validate_Fusion_Radius\\TO_MEX\\desc_Q.m",
   0 };
 
 static emlrtECInfo emlrtECI = { -1, 30, 5, "desc_Q",
-  "C:\\\\Users\\\\rodri\\\\Documents\\\\ENSEIRB\\\\S8\\\\Projet_Th\xc3\xa9matique\\\\SLIC_mex\\\\SLIC_mex\\\\18_03_Validate_Fusion_Radius\\\\TO_MEX\\\\desc_Q.m"
+  "C:\\Users\\rodri\\Documents\\ENSEIRB\\S8\\Projet_Thematique\\18_03_Validate_Fusion_Radius\\TO_MEX\\desc_Q.m"
 };
 
 static emlrtRTEInfo f_emlrtRTEI = { 14, 15, "inv",
@@ -133,36 +133,36 @@ static emlrtRTEInfo i_emlrtRTEI = { 30, 5, "mean",
   "C:\\Program Files\\MATLAB\\R2016a\\toolbox\\eml\\lib\\matlab\\datafun\\mean.m"
 };
 
-static emlrtDCInfo emlrtDCI = { 5, 12, "desc_Q",
-  "C:\\\\Users\\\\rodri\\\\Documents\\\\ENSEIRB\\\\S8\\\\Projet_Th\xc3\xa9matique\\\\SLIC_mex\\\\SLIC_mex\\\\18_03_Validate_Fusion_Radius\\\\TO_MEX\\\\desc_Q.m",
+static emlrtDCInfo emlrtDCI = { 4, 19, "desc_Q",
+  "C:\\Users\\rodri\\Documents\\ENSEIRB\\S8\\Projet_Thematique\\18_03_Validate_Fusion_Radius\\TO_MEX\\desc_Q.m",
   4 };
 
 static emlrtDCInfo b_emlrtDCI = { 9, 17, "desc_Q",
-  "C:\\\\Users\\\\rodri\\\\Documents\\\\ENSEIRB\\\\S8\\\\Projet_Th\xc3\xa9matique\\\\SLIC_mex\\\\SLIC_mex\\\\18_03_Validate_Fusion_Radius\\\\TO_MEX\\\\desc_Q.m",
+  "C:\\Users\\rodri\\Documents\\ENSEIRB\\S8\\Projet_Thematique\\18_03_Validate_Fusion_Radius\\TO_MEX\\desc_Q.m",
   1 };
 
 static emlrtDCInfo c_emlrtDCI = { 9, 17, "desc_Q",
-  "C:\\\\Users\\\\rodri\\\\Documents\\\\ENSEIRB\\\\S8\\\\Projet_Th\xc3\xa9matique\\\\SLIC_mex\\\\SLIC_mex\\\\18_03_Validate_Fusion_Radius\\\\TO_MEX\\\\desc_Q.m",
+  "C:\\Users\\rodri\\Documents\\ENSEIRB\\S8\\Projet_Thematique\\18_03_Validate_Fusion_Radius\\TO_MEX\\desc_Q.m",
   4 };
 
 static emlrtBCInfo i_emlrtBCI = { -1, -1, 9, 17, "count", "desc_Q",
-  "C:\\\\Users\\\\rodri\\\\Documents\\\\ENSEIRB\\\\S8\\\\Projet_Th\xc3\xa9matique\\\\SLIC_mex\\\\SLIC_mex\\\\18_03_Validate_Fusion_Radius\\\\TO_MEX\\\\desc_Q.m",
+  "C:\\Users\\rodri\\Documents\\ENSEIRB\\S8\\Projet_Thematique\\18_03_Validate_Fusion_Radius\\TO_MEX\\desc_Q.m",
   0 };
 
 static emlrtBCInfo j_emlrtBCI = { -1, -1, 18, 21, "c", "desc_Q",
-  "C:\\\\Users\\\\rodri\\\\Documents\\\\ENSEIRB\\\\S8\\\\Projet_Th\xc3\xa9matique\\\\SLIC_mex\\\\SLIC_mex\\\\18_03_Validate_Fusion_Radius\\\\TO_MEX\\\\desc_Q.m",
+  "C:\\Users\\rodri\\Documents\\ENSEIRB\\S8\\Projet_Thematique\\18_03_Validate_Fusion_Radius\\TO_MEX\\desc_Q.m",
   0 };
 
 static emlrtBCInfo k_emlrtBCI = { -1, -1, 19, 21, "c", "desc_Q",
-  "C:\\\\Users\\\\rodri\\\\Documents\\\\ENSEIRB\\\\S8\\\\Projet_Th\xc3\xa9matique\\\\SLIC_mex\\\\SLIC_mex\\\\18_03_Validate_Fusion_Radius\\\\TO_MEX\\\\desc_Q.m",
+  "C:\\Users\\rodri\\Documents\\ENSEIRB\\S8\\Projet_Thematique\\18_03_Validate_Fusion_Radius\\TO_MEX\\desc_Q.m",
   0 };
 
 static emlrtBCInfo l_emlrtBCI = { -1, -1, 20, 26, "c", "desc_Q",
-  "C:\\\\Users\\\\rodri\\\\Documents\\\\ENSEIRB\\\\S8\\\\Projet_Th\xc3\xa9matique\\\\SLIC_mex\\\\SLIC_mex\\\\18_03_Validate_Fusion_Radius\\\\TO_MEX\\\\desc_Q.m",
+  "C:\\Users\\rodri\\Documents\\ENSEIRB\\S8\\Projet_Thematique\\18_03_Validate_Fusion_Radius\\TO_MEX\\desc_Q.m",
   0 };
 
 static emlrtBCInfo m_emlrtBCI = { -1, -1, 20, 17, "c", "desc_Q",
-  "C:\\\\Users\\\\rodri\\\\Documents\\\\ENSEIRB\\\\S8\\\\Projet_Th\xc3\xa9matique\\\\SLIC_mex\\\\SLIC_mex\\\\18_03_Validate_Fusion_Radius\\\\TO_MEX\\\\desc_Q.m",
+  "C:\\Users\\rodri\\Documents\\ENSEIRB\\S8\\Projet_Thematique\\18_03_Validate_Fusion_Radius\\TO_MEX\\desc_Q.m",
   0 };
 
 static emlrtRSInfo nb_emlrtRSI = { 52, "flt2str",
@@ -220,16 +220,16 @@ static void m_emlrt_marshallIn(const emlrtStack *sp, const mxArray *src, const
 
 void desc_Q(const emlrtStack *sp, const emxArray_real_T *img_target, const
             emxArray_int32_T *labels, int32_T numlabels, const emxArray_real_T
-            *count, real_T par_s, real_T par_c, emxArray_real_T *A_mean, real_T
-            Q_inv[8475])
+            *count, real_T par_s, real_T par_c, emxArray_real_T *A_mean,
+            emxArray_real_T *Q_inv)
 {
   boolean_T b0;
   int32_T j;
   int32_T i;
   int32_T i0;
-  emxArray_real_T *c;
   int32_T i1;
   int32_T b_i;
+  emxArray_real_T *c;
   int32_T y;
   emxArray_real_T *A_i;
   emxArray_real_T *b_A_i;
@@ -239,10 +239,10 @@ void desc_Q(const emlrtStack *sp, const emxArray_real_T *img_target, const
   int32_T pos2;
   real_T X_i_data[4];
   int32_T X_i_size[2];
-  int32_T vlen;
   int64_T i2;
   real_T C_i_data[9];
   int32_T C_i_size[2];
+  int32_T vlen;
   int8_T unnamed_idx_0;
   int8_T unnamed_idx_1;
   int32_T x_size[2];
@@ -282,27 +282,34 @@ void desc_Q(const emlrtStack *sp, const emxArray_real_T *img_target, const
   covrtLogBasicBlock(&emlrtCoverageInstance, 0U, 0);
   j = img_target->size[1];
   i = img_target->size[0];
-  for (i0 = 0; i0 < 8475; i0++) {
-    Q_inv[i0] = 0.0;
-  }
-
-  emxInit_real_T(sp, &c, 2, &b_emlrtRTEI, true);
-  i0 = c->size[0] * c->size[1];
-  c->size[0] = 1;
+  i0 = Q_inv->size[0] * Q_inv->size[1] * Q_inv->size[2];
+  Q_inv->size[0] = 5;
+  Q_inv->size[1] = 5;
   i1 = numlabels;
   if (!(i1 >= 0)) {
     emlrtNonNegativeCheckR2012b(i1, &emlrtDCI, sp);
   }
 
-  c->size[1] = i1;
-  emxEnsureCapacity(sp, (emxArray__common *)c, i0, (int32_T)sizeof(real_T),
+  Q_inv->size[2] = i1;
+  emxEnsureCapacity(sp, (emxArray__common *)Q_inv, i0, (int32_T)sizeof(real_T),
                     &emlrtRTEI);
-  b_i = numlabels;
-  if (!(b_i >= 0)) {
-    emlrtNonNegativeCheckR2012b(b_i, &emlrtDCI, sp);
+  i0 = numlabels;
+  if (!(i0 >= 0)) {
+    emlrtNonNegativeCheckR2012b(i0, &emlrtDCI, sp);
   }
 
+  b_i = 25 * i0;
   for (i0 = 0; i0 < b_i; i0++) {
+    Q_inv->data[i0] = 0.0;
+  }
+
+  emxInit_real_T(sp, &c, 2, &b_emlrtRTEI, true);
+  i0 = c->size[0] * c->size[1];
+  c->size[0] = 1;
+  c->size[1] = numlabels;
+  emxEnsureCapacity(sp, (emxArray__common *)c, i0, (int32_T)sizeof(real_T),
+                    &emlrtRTEI);
+  for (i0 = 0; i0 < numlabels; i0++) {
     c->data[i0] = 1.0;
   }
 
@@ -386,8 +393,17 @@ void desc_Q(const emlrtStack *sp, const emxArray_real_T *img_target, const
           emlrtDynamicBoundsCheckR2012b(i1, 1, i0, &b_emlrtBCI, sp);
         }
 
+        i2 = y - 1LL;
+        if (i2 > 2147483647LL) {
+          i2 = 2147483647LL;
+        } else {
+          if (i2 < -2147483648LL) {
+            i2 = -2147483648LL;
+          }
+        }
+
         if (covrtLogIf(&emlrtCoverageInstance, 0U, 0U, 0, labels->data[pos +
-                       labels->size[0] * pos2] == y - 1)) {
+                       labels->size[0] * pos2] == (int32_T)i2)) {
           covrtLogBasicBlock(&emlrtCoverageInstance, 0U, 3);
           vlen = A_i->size[0];
           i0 = c->size[1];
@@ -529,8 +545,9 @@ void desc_Q(const emlrtStack *sp, const emxArray_real_T *img_target, const
 
     st.site = &c_emlrtRSI;
     b_cov(&st, b_A_i, C_i_data, C_i_size);
-    if (!((y >= 1) && (y <= 339))) {
-      emlrtDynamicBoundsCheckR2012b(y, 1, 339, &h_emlrtBCI, sp);
+    i0 = Q_inv->size[2];
+    if (!((y >= 1) && (y <= i0))) {
+      emlrtDynamicBoundsCheckR2012b(y, 1, i0, &h_emlrtBCI, sp);
     }
 
     st.site = &d_emlrtRSI;
@@ -633,7 +650,8 @@ void desc_Q(const emlrtStack *sp, const emxArray_real_T *img_target, const
     emlrtSubAssignSizeCheckR2012b(iv1, 2, X_i_size, 2, &emlrtECI, sp);
     for (i0 = 0; i0 < 5; i0++) {
       for (i1 = 0; i1 < 5; i1++) {
-        Q_inv[(i1 + 5 * i0) + 25 * (y - 1)] = xinv_data[i1 + 5 * i0];
+        Q_inv->data[(i1 + Q_inv->size[0] * i0) + Q_inv->size[0] * Q_inv->size[1]
+          * (y - 1)] = xinv_data[i1 + 5 * i0];
       }
     }
 

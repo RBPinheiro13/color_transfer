@@ -25,7 +25,7 @@
 extern void desc_Q(const emlrtStack *sp, const emxArray_real_T *img_target,
                    const emxArray_int32_T *labels, int32_T numlabels, const
                    emxArray_real_T *count, real_T par_s, real_T par_c,
-                   emxArray_real_T *A_mean, real_T Q_inv[8475]);
+                   emxArray_real_T *A_mean, emxArray_real_T *Q_inv);
 
 #endif
 

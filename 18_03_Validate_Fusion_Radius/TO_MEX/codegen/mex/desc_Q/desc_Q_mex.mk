@@ -1,4 +1,4 @@
-START_DIR = C:\Users\rodri\DOCUME~1\ENSEIRB\S8\Projet_Thématique\SLIC_mex\SLIC_mex\18_03_Validate_Fusion_Radius\TO_MEX
+START_DIR = C:\Users\rodri\DOCUME~1\ENSEIRB\S8\Projet_Thematique\18_03_Validate_Fusion_Radius\TO_MEX
 
 MATLAB_ROOT = C:\PROGRA~1\MATLAB\R2016a
 MAKEFILE = desc_Q_mex.mk

@@ -18,7 +18,7 @@
 static emlrtRTEInfo e_emlrtRTEI = { 1, 1, "_coder_desc_Q_api", "" };
 
 /* Function Declarations */
-static const mxArray *b_emlrt_marshallOut(const real_T u[8475]);
+static const mxArray *b_emlrt_marshallOut(const emxArray_real_T *u);
 static void c_emlrt_marshallIn(const emlrtStack *sp, const mxArray *img_target,
   const char_T *identifier, emxArray_real_T *y);
 static void d_emlrt_marshallIn(const emlrtStack *sp, const mxArray *u, const
@@ -52,18 +52,16 @@ static real_T r_emlrt_marshallIn(const emlrtStack *sp, const mxArray *src, const
   emlrtMsgIdentifier *msgId);
 
 /* Function Definitions */
-static const mxArray *b_emlrt_marshallOut(const real_T u[8475])
+static const mxArray *b_emlrt_marshallOut(const emxArray_real_T *u)
 {
   const mxArray *y;
   const mxArray *m4;
   static const int32_T iv10[3] = { 0, 0, 0 };
 
-  static const int32_T iv11[3] = { 5, 5, 339 };
-
   y = NULL;
   m4 = emlrtCreateNumericArray(3, iv10, mxDOUBLE_CLASS, mxREAL);
-  mxSetData((mxArray *)m4, (void *)u);
-  emlrtSetDimensions((mxArray *)m4, iv11, 3);
+  mxSetData((mxArray *)m4, (void *)u->data);
+  emlrtSetDimensions((mxArray *)m4, u->size, 3);
   emlrtAssign(&y, m4);
   return y;
 }
@@ -187,12 +185,12 @@ static void n_emlrt_marshallIn(const emlrtStack *sp, const mxArray *src, const
 
   boolean_T bv0[3] = { true, true, false };
 
-  int32_T iv12[3];
+  int32_T iv11[3];
   emlrtCheckVsBuiltInR2012b(sp, msgId, src, "double", false, 3U, dims, &bv0[0],
-    iv12);
-  ret->size[0] = iv12[0];
-  ret->size[1] = iv12[1];
-  ret->size[2] = iv12[2];
+    iv11);
+  ret->size[0] = iv11[0];
+  ret->size[1] = iv11[1];
+  ret->size[2] = iv11[2];
   ret->allocatedSize = ret->size[0] * ret->size[1] * ret->size[2];
   ret->data = (real_T *)mxGetData(src);
   ret->canFreeData = false;
@@ -206,11 +204,11 @@ static void o_emlrt_marshallIn(const emlrtStack *sp, const mxArray *src, const
 
   boolean_T bv1[2] = { true, true };
 
-  int32_T iv13[2];
+  int32_T iv12[2];
   emlrtCheckVsBuiltInR2012b(sp, msgId, src, "int32", false, 2U, dims, &bv1[0],
-    iv13);
-  ret->size[0] = iv13[0];
-  ret->size[1] = iv13[1];
+    iv12);
+  ret->size[0] = iv12[0];
+  ret->size[1] = iv12[1];
   ret->allocatedSize = ret->size[0] * ret->size[1];
   ret->data = (int32_T *)mxGetData(src);
   ret->canFreeData = false;
@@ -235,10 +233,10 @@ static void q_emlrt_marshallIn(const emlrtStack *sp, const mxArray *src, const
 
   boolean_T bv2[1] = { true };
 
-  int32_T iv14[1];
+  int32_T iv13[1];
   emlrtCheckVsBuiltInR2012b(sp, msgId, src, "double", false, 1U, dims, &bv2[0],
-    iv14);
-  ret->size[0] = iv14[0];
+    iv13);
+  ret->size[0] = iv13[0];
   ret->allocatedSize = ret->size[0];
   ret->data = (real_T *)mxGetData(src);
   ret->canFreeData = false;
@@ -258,23 +256,23 @@ static real_T r_emlrt_marshallIn(const emlrtStack *sp, const mxArray *src, const
 
 void desc_Q_api(const mxArray * const prhs[6], const mxArray *plhs[2])
 {
-  real_T (*Q_inv)[8475];
   emxArray_real_T *img_target;
   emxArray_int32_T *labels;
   emxArray_real_T *count;
   emxArray_real_T *A_mean;
+  emxArray_real_T *Q_inv;
   int32_T numlabels;
   real_T par_s;
   real_T par_c;
   emlrtStack st = { NULL, NULL, NULL };
 
   st.tls = emlrtRootTLSGlobal;
-  Q_inv = (real_T (*)[8475])mxMalloc(sizeof(real_T [8475]));
   emlrtHeapReferenceStackEnterFcnR2012b(&st);
   emxInit_real_T1(&st, &img_target, 3, &e_emlrtRTEI, true);
   emxInit_int32_T(&st, &labels, 2, &e_emlrtRTEI, true);
   emxInit_real_T2(&st, &count, 1, &e_emlrtRTEI, true);
   emxInit_real_T(&st, &A_mean, 2, &e_emlrtRTEI, true);
+  emxInit_real_T1(&st, &Q_inv, 3, &e_emlrtRTEI, true);
 
   /* Marshall function inputs */
   c_emlrt_marshallIn(&st, emlrtAlias(prhs[0]), "img_target", img_target);
@@ -285,11 +283,13 @@ void desc_Q_api(const mxArray * const prhs[6], const mxArray *plhs[2])
   par_c = k_emlrt_marshallIn(&st, emlrtAliasP(prhs[5]), "par_c");
 
   /* Invoke the target function */
-  desc_Q(&st, img_target, labels, numlabels, count, par_s, par_c, A_mean, *Q_inv);
+  desc_Q(&st, img_target, labels, numlabels, count, par_s, par_c, A_mean, Q_inv);
 
   /* Marshall function outputs */
   plhs[0] = emlrt_marshallOut(A_mean);
-  plhs[1] = b_emlrt_marshallOut(*Q_inv);
+  plhs[1] = b_emlrt_marshallOut(Q_inv);
+  Q_inv->canFreeData = false;
+  emxFree_real_T(&Q_inv);
   A_mean->canFreeData = false;
   emxFree_real_T(&A_mean);
   count->canFreeData = false;

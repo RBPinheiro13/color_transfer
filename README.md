@@ -1,7 +1,7 @@
 # SuperPixel Based Video Color Transfer
 
 ### Overview
-Project oriented by Rémi Giraud at ENSIRB-MATMECA:
+Project oriented by Rémi Giraud at ENSIRB-MATMECA:  
 Re-Implementation of paper with an extension to the fusion in videos and an user interface to manually change the colors:
 ```
 @article{SP_ColourTransfer,
@@ -45,9 +45,9 @@ run main.m    %Asks for 2 input images and performs;
 
 ### License and Contact
 
-Student: Rodrigo Borba Pinheiro,  2019
-rodrigo.borba_pinheiro@bordeaux-inp.fr
-ENSEIRB-MATMECA (Bordeaux INP), Electronic Engineering - Signal and Image Processing
+Student: Rodrigo Borba Pinheiro,  2019  
+rodrigo.borba_pinheiro@bordeaux-inp.fr  
+ENSEIRB-MATMECA (Bordeaux INP), Electronic Engineering - Signal and Image Processing  
 
 (C) Rémi Giraud, 2020  
 remi.giraud@u-bordeaux.fr  

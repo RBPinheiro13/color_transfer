@@ -24,7 +24,7 @@ We use the sequential method and then we go through the image again. In the seco
 
 - Linux or Windows
 
-- MATLAB Version r2018 or newer
+- MATLAB Version R2018b or newer
 
 
 ### Execution

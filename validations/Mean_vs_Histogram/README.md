@@ -9,7 +9,7 @@
 
 - Linux or Windows
 
-- MATLAB Version r2018 or newer
+- MATLAB Version R2018b or newer
 
 
 ### Execution

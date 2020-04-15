@@ -27,7 +27,6 @@ for pos = 1:i
         
         w(:,pos,pos2) = exp(logw + alpha);
     end
-    pos
 end
 end
 

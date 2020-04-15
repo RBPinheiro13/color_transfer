@@ -5,9 +5,9 @@ C_Bg = zeros(num_labels,1);
 C_Bb = zeros(num_labels,1);
 %Calculer les covariances dans chaque superpixel;
 %Calculer les matrix Q;
-[A_mean , Q_inv] = desc_Q_mex(img_target,labels_target,num_labels,count,par_s,par_c);
+[A_mean , Q_inv] = desc_Q(img_target,labels_target,num_labels,count,par_s,par_c);
 %Caculer distance w;
-[w] = distance2_mex(Q_inv,img_target,A_mean,num_labels,labels_target,r_2);
+[w] = distance2(Q_inv,img_target,A_mean,num_labels,labels_target,r_2);
 % reorganization des coleurs
 for L = 1:num_labels
     
@@ -17,6 +17,6 @@ for L = 1:num_labels
     C_Bb(L,1) = B_s(Sp_source);
 end
 %% Transform in function in c
-[img_fin] = calcul_final_mex(img_target,w,C_Br,C_Bg,C_Bb);
+[img_fin] = calcul_final(img_target,w,C_Br,C_Bg,C_Bb);
 end
 

@@ -1,4 +1,4 @@
-# Comparison of Distance using different Methods
+# Comparison of distance using different methods
 
 ### Overview
 Compare different methods of color matching between the source and target images, both using histogram distance and mean color:
